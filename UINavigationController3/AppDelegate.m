@@ -16,7 +16,12 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    //1.创建根视图控制器
+    _rootViewController = [[RootViewController alloc] init];
+    //2.创建导航视图控制器，被管理对象为_rootViewController
+    _navController = [[UINavigationController alloc] initWithRootViewController:_rootViewController];
+    //3.为window指定根视图控制器对象为_navController
+    self.window.rootViewController = _navController;
     return YES;
 }
 
