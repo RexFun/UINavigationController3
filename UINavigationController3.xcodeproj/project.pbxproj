@@ -15,6 +15,7 @@
 		7178BD801C575487005B9F69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7178BD7E1C575487005B9F69 /* LaunchScreen.storyboard */; };
 		7178BD891C5755BF005B9F69 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7178BD881C5755BF005B9F69 /* SecondViewController.m */; };
 		7178BD8C1C575614005B9F69 /* RootViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7178BD8B1C575614005B9F69 /* RootViewCell.m */; };
+		717AAFDD1C609F2A00FBDB58 /* SecondViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 717AAFDC1C609F2A00FBDB58 /* SecondViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,8 @@
 		7178BD881C5755BF005B9F69 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		7178BD8A1C575614005B9F69 /* RootViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewCell.h; sourceTree = "<group>"; };
 		7178BD8B1C575614005B9F69 /* RootViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewCell.m; sourceTree = "<group>"; };
+		717AAFDB1C609F2A00FBDB58 /* SecondViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewCell.h; sourceTree = "<group>"; };
+		717AAFDC1C609F2A00FBDB58 /* SecondViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewCell.m; sourceTree = "<group>"; };
 		71EF851A1C605DEC00099D5F /* PassValueDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PassValueDelegate.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -74,6 +77,8 @@
 				7178BD8B1C575614005B9F69 /* RootViewCell.m */,
 				7178BD871C5755BF005B9F69 /* SecondViewController.h */,
 				7178BD881C5755BF005B9F69 /* SecondViewController.m */,
+				717AAFDB1C609F2A00FBDB58 /* SecondViewCell.h */,
+				717AAFDC1C609F2A00FBDB58 /* SecondViewCell.m */,
 				7178BD791C575487005B9F69 /* Main.storyboard */,
 				7178BD7C1C575487005B9F69 /* Assets.xcassets */,
 				7178BD7E1C575487005B9F69 /* LaunchScreen.storyboard */,
@@ -162,6 +167,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				717AAFDD1C609F2A00FBDB58 /* SecondViewCell.m in Sources */,
 				7178BD891C5755BF005B9F69 /* SecondViewController.m in Sources */,
 				7178BD781C575486005B9F69 /* RootViewController.m in Sources */,
 				7178BD751C575486005B9F69 /* AppDelegate.m in Sources */,
